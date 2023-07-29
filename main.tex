@@ -1,0 +1,63 @@
+\documentclass{resume}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{url}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Ethan Lew} % Your name
+\address{\url{https://eth0lew.com}} % Your address
+
+\begin{document}
+
+\begin{rSection}{Education}
+
+{\bf Portland State University, OR} \hfill {\em June 2016 - June 2019} 
+\\ BS Electrical Engineering\hfill { GPA: 4.00 }
+\\{\bf Portland Community College, OR} \hfill {\em March 2015 - June 2017} 
+\\ Transfer Program \hfill { GPA: 4.00 }
+
+
+\end{rSection}
+
+
+\begin{rSection}{Technical Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Research Experience \ & Formal Verification,  Cyber-physical Systems, Data-driven Controls \\ 
+Programming & Python, R, Rust, C/C++, \LaTeX, Bash \\
+Libraries/Frameworks & PyTorch, Tensorflow, Apache Spark, Gurobi, ONNX
+\end{tabular}
+
+\end{rSection}
+
+
+\begin{rSection}{Work Experience}
+\begin{rSubsection}{Galois, Inc., 421 SW 6th Ave, Portland, OR 97204}{2019-Present}{Research Engineer}{}
+\item Excelled in developing research methodologies, writing sophisticated software prototypes, and exceeding project deliverables.
+\item Contributed research and engineering significantly to Galois projects on high-profile DARPA programs: SSITH (2019-2021), Assured Autonomy (2019-2022), ESSENCE (2021-2023), and Space BACN (2022-Present).
+\item Demonstrated expertise in system analysis and auditing, particularly in relation to the US Census Bureau's Disclosure Avoidance System (2021-Present).
+\end{rSubsection}
+
+\begin{rSubsection}{Johns Hopkins APL, 11100 Johns Hopkins Rd, Laurel, MD 20723}{2019}{Electrical Engineering Intern}{}
+\item Research Projects: troposcatter communication system feasibility, FDTD solver for bodies of revolution, and methods and benchmarks for an adaptive radar resource manager (RRM).
+\end{rSubsection}
+
+
+\begin{rSubsection}{Portland State University, 1825 SW Broadway, Portland, OR 97201}{2017}{Climate Research Intern}{}
+\item Research Project: \textit{Sensitivity of Global Methane Bayesian Inversion to Surface Observation Data Sets and Chemical-Transport Model Resolution}
+\item Presented findings at the Center for Climate and Aerosol Research (CCAR) symposium,
+Council on Undergraduate Research (CUR) symposium and the American Geophysical
+Union (AGU) Fall Meeting.
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Projects}
+
+\begin{rSubsection}{High Assurance Controller of a Two-Wheeled Inverted Pendulum}{2019}{Senior Capstone Project}{Galois, Inc.}
+A two-wheeled inverted pendulum robot was designed, formally verified and built.  The methods used serve to demonstrate an approach to hybrid system verification. The robot was shown to have improved stability from the high assurance pipeline that was used to create it.
+\end{rSubsection}
+
+
+\end{rSection}
+
+\end{document}
