@@ -23,8 +23,11 @@ jobs:
           name: PDF
           path: elew-cv.pdf
 
+      - name: Create directory
+        run: mkdir -p ./public
+
       - name: Move PDF to correct directory
-        run: mv elew-cv.pdf ./public/elew-cv.pdf
+        run: mv *.pdf ./public/
 
   deploy:
     needs: build_latex
