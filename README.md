@@ -6,7 +6,7 @@ This repository contains the LaTeX source code for my (Ethan Lew's) resume.
 
 The compiled resume is automatically built and deployed to GitHub Pages whenever there are new commits to the `main` branch. It can be accessed at the following URL:
 
-[https://EthanJamesLew.github.io/elew-cv/elew-cv.pdf](https://<your-github-username>.github.io/<your-repo-name>/elew-cv.pdf)
+[https://EthanJamesLew.github.io/elew-cv/elew-cv.pdf](https://EthanJamesLew.github.io/elew-cv/elew-cv.pdf)
 
 ## Local Build Instructions
 
@@ -33,6 +33,9 @@ To compile the LaTeX document to a PDF locally, follow these steps:
 4. Compile the LaTeX document to a PDF:
 
     ```bash
+    pdflatex elew-cv.tex
+    bibtex elew-cv.aux
+    pdflatex elew-cv.tex
     pdflatex elew-cv.tex
     ```
 
