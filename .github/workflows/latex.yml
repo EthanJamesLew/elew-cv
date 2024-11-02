@@ -18,7 +18,7 @@ jobs:
           root_file: elew-cv.tex
 
       - name: Upload PDF file
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: PDF
           path: elew-cv.pdf
