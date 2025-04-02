@@ -1,0 +1,128 @@
+\documentclass{resume}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{url}
+
+\usepackage[round]{natbib}  % bibliography package
+\usepackage{bibentry}         %  full citation in the body of the text (turn off natbib if use it)
+\nobibliography*   
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{Ethan Lew} % Your name
+\address{\url{https://eth0lew.com}} % Your address
+
+\begin{document}
+
+\begin{rSection}{Summary}
+AI Research Scientist and Systems Engineer with 5+ years of experience developing autonomous systems and advanced AI solutions for high-profile DARPA and USAF-funded projects. Proven expertise in formal verification, machine learning, and cyber-physical systems—bridging cutting-edge research with real-world industry impact. Recognized for technical leadership, innovative methodologies, and award-winning contributions in autonomous systems.
+\end{rSection}
+
+\begin{rSection}{Technical Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Domain Expertise & Autonomous Systems, Formal Verification, AI/ML, Cyber-Physical Systems \\ 
+Programming & Python, R, Rust, C/C++, \LaTeX, Bash \\
+Libraries/Frameworks & PyTorch, TensorFlow, Apache Spark, scikit-learn, Gurobi, ONNX
+\end{tabular}
+
+\end{rSection}
+
+
+\begin{rSection}{Work Experience}
+
+\begin{rSubsection}{P-1.ai}{2024-Present}{Senior Systems Engineer}{}
+\item Advancing Artificial General Engineering Intelligence by developing scalable, multi-modal AI frameworks for complex autonomous systems.
+\end{rSubsection}
+
+\begin{rSubsection}{Galois, Inc., 421 SW 6th Ave, Portland, OR 97204}{2019-2024}{Research Engineer}{}
+\item Awarded a Phase I SBIR grant on vehicle autonomy and served as Principal Investigator (PI), developing an energy-aware mission planning framework for unmanned aerial systems.
+\item Led the DARPA Assured Autonomy project by designing and implementing a Control Systems Analysis Framework (CSAF) that streamlined simulation and formal verification of AI-driven flight control systems.
+\item Co-developed a hardware-assisted automotive cybersecurity demonstrator under DARPA’s SSITH program, showcasing secure processor designs that thwart cyberattacks on vehicle control units in live demonstrations.
+\item Pioneered an integrated approach combining falsification and reachability analysis for validating autonomous control systems—achieving benchmark improvements and contributing to a first-author publication at ACM HSCC 2024.
+\item Mentored a multidisciplinary team to design an autonomous blimp UAV prototype for an Office of Naval Research challenge, resulting in a successfully flight-tested model and an open-source design guide.
+\end{rSubsection}
+
+\begin{rSubsection}{Johns Hopkins APL, 11100 Johns Hopkins Rd, Laurel, MD 20723}{2019}{Electrical Engineering Intern}{}
+\item Researched troposcatter communication system feasibility, developed an FDTD solver for bodies of revolution, and devised benchmarks for an adaptive radar resource manager (RRM).
+\end{rSubsection}
+
+\begin{rSubsection}{Summit Wireless Technologies, 20575 Von Neumann Dr., Beaverton, OR 97006}{2018-2019}{Electrical Engineering Intern}{}
+\item Contributed across teams by developing an RF power meter, a Linux wireless driver, and core components of the wireless audio stack.
+\end{rSubsection}
+
+\begin{rSubsection}{Portland State University, 1825 SW Broadway, Portland, OR 97201}{2017}{Climate Research Intern}{}
+\item Investigated the \textit{Sensitivity of Global Methane Bayesian Inversion to Surface Observation Data Sets and Chemical-Transport Model Resolution}.
+\item Presented findings at the Center for Climate and Aerosol Research (CCAR), Council on Undergraduate Research (CUR), and American Geophysical Union (AGU) Fall Meeting.
+\end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Education}
+
+{\bf Portland State University, OR} \hfill {\em June 2016 - June 2019} 
+\\ BS Electrical Engineering \quad \textit{Summa Cum Laude}\hfill {GPA: 4.00}
+\\{\bf Portland Community College, OR} \hfill {\em March 2015 - June 2017} 
+\\ Transfer Program \hfill {GPA: 4.00}
+
+\end{rSection}
+
+\begin{rSection}{Program Committees}
+
+\begin{rSubsectionEmpty}{26th ACM International Conference on Hybrid Systems: Computation and Control}{2021}{Repeatability Evaluation Program Committee}{HSCC 2023}
+\end{rSubsectionEmpty}
+
+\begin{rSubsectionEmpty}{25th ACM International Conference on Hybrid Systems: Computation and Control}{2021}{Repeatability Evaluation Program Committee}{HSCC 2022}
+\end{rSubsectionEmpty}
+
+\begin{rSubsectionEmpty}{7th IFAC Conference on Analysis and Design of Hybrid Systems}{2021}{Repeatability Evaluation Program Committee}{ADHS 2021}
+\end{rSubsectionEmpty}
+
+\begin{rSubsectionEmpty}{24th ACM International Conference on Hybrid Systems: Computation and Control}{2021}{Repeatability Evaluation Program Committee}{HSCC 2021}
+\end{rSubsectionEmpty}
+
+\end{rSection}
+
+\begin{rSection}{Peer-Reviewed Publications}
+
+\textbf{(authors alphabetical)} \bibentry{10.1007/978-3-031-78750-8_12}
+
+\bibentry{khandait2024arch}
+
+\textbf{(authors alphabetical)} 
+ \bibentry{abowd20232010}
+
+\textbf{(authors alphabetical)} \bibentry{hekal2023falsify}
+
+\bibentry{lahouel2024learning}
+
+\bibentry{lew2023autokoopman}
+
+\bibentry{davis2023leveraging}
+
+\textbf{(authors alphabetical)} \bibentry{bak2022reachability}
+
+\end{rSection}
+
+\begin{rSection}{Awards}
+\begin{rSubsectionEmpty}{Generalized RAcing Intelligence Competition (GRAIC)}{2022}{1st Place Head-to-Head Category}{CPS-IoT Week}
+\end{rSubsectionEmpty}
+
+\begin{rSubsectionEmpty}{Electrical and Computer Engineering Capstone Poster Competition}{2019}{Best Overall Project}{PSU ECE}
+\end{rSubsectionEmpty}
+
+\begin{rSubsectionEmpty}{Intel Compute Stick Challenge}{2016}{1st Place}{Intel}
+\end{rSubsectionEmpty}
+\end{rSection}
+
+\begin{rSection}{Funded Projects}
+\begin{rSubsection}{SBIR: Phase I: RHEIA-F: Robust High-fidelity Energy-Informed Autonomy Framework}{2024}{PI: \textbf{Ethan Lew}; Co-PI: Nicola Bezzo}{AFRL Funded, Galois Inc. Award: \$179,934}
+\item Developed the Robust High-fidelity Energy-Informed Autonomy Framework (RHEIA-F) integrating comprehensive energy management into unmanned aerial systems (UAS) mission planning. This advanced framework is directly transferable to DoD embedded systems, autonomous vehicles, and space applications.
+\end{rSubsection}
+\end{rSection}
+
+\nobibliography{elew}
+\bibliographystyle{apalike}
+
+\end{document}
